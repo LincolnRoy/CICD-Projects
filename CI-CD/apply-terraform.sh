@@ -7,7 +7,7 @@ set -eu
 cd .. 
 
 # initialize terraform
-terraform init
+# terraform init
 
 # # apply terraform
 # terraform apply -auto-approve
