@@ -8,7 +8,7 @@ phases:
   pre_build:
     commands:
       - cd CI-CD # change directory
-      - chmod +x install-terraform.sh configure-name-profile.sh apply-terraform.sh # make files executable
+      - chmod +x install-terraform.sh configured-name-profile.sh apply-terraform.sh # make files executable
       - ./install-terraform.sh # install terraform
       - ./configure-name-profile.sh # configure named profile
 
